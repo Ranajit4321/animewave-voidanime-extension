@@ -1,0 +1,18 @@
+{
+  "id": "animewave",
+  "name": "AnimeWave",
+  "icon": "https://animewave.to/favicon.ico",
+  "description": "AnimeWave streaming provider",
+  "manifestURI": "https://raw.githubusercontent.com/YOURUSERNAME/animewave-provider/main/manifest.json",
+  "version": "1.0.0",
+  "author": "Ranajit",
+  "type": "onlinestream-provider",
+  "language": "typescript",
+  "lang": "en",
+  "payloadURI": "https://raw.githubusercontent.com/YOURUSERNAME/animewave-provider/main/provider.ts",
+  "userConfig": {
+    "requiresConfig": false,
+    "version": 1,
+    "fields": []
+  }
+}
