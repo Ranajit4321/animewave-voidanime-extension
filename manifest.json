@@ -1,9 +1,9 @@
 {
   "name": "AnimeWave",
   "version": "1.0.0",
-  "author": "YourName",
-  "description": "AnimeWave provider for VoidAnime",
+  "author": "Ranajit",
+  "description": "AnimeWave source for VoidAnime",
   "type": "anime",
-  "baseUrl": "https://animewave.to",
-  "script": "animewave.js"
+  "main": "animewave.js",
+  "baseUrl": "https://animewave.to"
 }
