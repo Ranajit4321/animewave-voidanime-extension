@@ -402,5 +402,3 @@ async function extractMegaCloud(embedUrl: string) {
     server: sourcesJson.server || null,
   };
 }
-
-export default Provider;
