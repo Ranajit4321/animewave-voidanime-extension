@@ -1,0 +1,29 @@
+{
+  "id": "aniwave",
+  "name": "AniWave",
+  "icon": "https://aniwave.to/favicon.ico",
+  "description": "AniWave streaming provider for VoidAnime",
+  "manifestURI": "https://raw.githubusercontent.com/Ranajit4321/aniwave-provider/main/manifest.json",
+  "version": "1.0.0",
+  "author": "Ranajit",
+  "type": "onlinestream-provider",
+  "language": "typescript",
+  "lang": "en",
+  "payloadURI": "https://raw.githubusercontent.com/Ranajit4321/aniwave-provider/main/provider.ts",
+
+  "userConfig": {
+    "requiresConfig": false,
+    "version": 1,
+    "fields": [
+      {
+        "name": "domain",
+        "label": "Domain Selection",
+        "type": "select",
+        "default": "https://aniwave.to",
+        "options": [
+          { "label": "aniwave.to", "value": "https://aniwave.to" }
+        ]
+      }
+    ]
+  }
+}
